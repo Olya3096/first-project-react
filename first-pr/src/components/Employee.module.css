@@ -1,0 +1,32 @@
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info {
+  font-size: 18px;
+}
+
+.nameEmployee {
+  margin-bottom: 10px;
+}
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .employees {
+    flex-direction: row;
+  }
+
+  .employees:nth-of-type(even) {
+    flex-direction: row-reverse;
+    text-align: end;
+  }
+}

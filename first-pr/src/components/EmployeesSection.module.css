@@ -1,0 +1,36 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutusContainer {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.titleAboutus {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #152d41;
+  padding-bottom: 28px;
+}
+
+@media (min-width: 768px) {
+  .titleAboutus {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
