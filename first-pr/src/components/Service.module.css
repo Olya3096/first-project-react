@@ -1,0 +1,62 @@
+.gridItem {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.firstService {
+  position: relative;
+}
+
+.infAboutService {
+  font-size: 18px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(224, 122, 100, 1);
+  position: absolute;
+  top: -11px;
+  left: -11px;
+}
+
+@media (min-width: 576px) {
+  .circle {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .gridItem {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gridItem {
+    width: 198px;
+    height: 198px;
+  }
+
+  .circle {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (hover: hover) {
+  .gridItem:hover {
+    transform: scale(1.05);
+  }
+}

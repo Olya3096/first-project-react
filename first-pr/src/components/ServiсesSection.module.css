@@ -1,0 +1,56 @@
+.offer {
+  background-color: rgba(64, 93, 120, 1);
+}
+
+.offerShadow {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+}
+
+.offerContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.offerGridContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.titleOffer {
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 83px;
+}
+
+@media (min-width: 576px) {
+  .titleOffer {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .titleOffer {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .titleOffer {
+    text-align: justify;
+    font-size: 36px;
+  }
+}
