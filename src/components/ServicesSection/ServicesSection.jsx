@@ -1,4 +1,4 @@
-import ServiceList from "./ServiceList";
+import ServiceList from "./ServiceList/ServiceList";
 import styles from "./ServiсesSection.module.css";
 
 const ServicesSection = () => {

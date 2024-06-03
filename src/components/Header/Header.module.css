@@ -1,12 +1,12 @@
 .header {
   height: calc(100vh - 50px);
-  background-image: url("../images/background_img.png");
+  background-image: url("../../images/background_img.png");
   background-size: cover;
 }
 
 .headerShadow {
   height: 100%;
-  background-image: url("../images/shadow_img.png");
+  background-image: url("../../images/shadow_img.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,7 @@
 }
 
 @media (hover: hover) {
-  .btn-offer:hover {
+  .btnOffer:hover {
     background-color: #fff;
     color: #000;
   }

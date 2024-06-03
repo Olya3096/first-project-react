@@ -1,5 +1,5 @@
 import styles from "./EmployeesSection.module.css";
-import EmployeeList from "./EmployeeList";
+import EmployeeList from "./EmployeeList/EmployeeList";
 
 const EmployeesSection = () => {
   return (
